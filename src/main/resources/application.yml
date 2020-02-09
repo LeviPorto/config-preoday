@@ -1,0 +1,17 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LeviPorto/config
+          clone-on-start: true
+          username: LeviPorto
+          password: q11W22e33
+  security:
+    user:
+      name: LeviPorto
+      password: q11W22e33
+  application:
+    name: config
