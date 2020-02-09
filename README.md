@@ -18,4 +18,15 @@ It was created thinking future propourses, also, like others Micro Services spec
 
 ## Architecture
 
+These configurations represent all Weatherman API configuration
+
+nasa-api:
+  api-key: DEMO_KEY
+  api-version: 1.0
+  api-feed-type: json
+  
+1. Change api-key to put your api-key, gotten on NASA Web Site (Default: DEMO_KEY)
+2. Change api-version to choose your api version (Default: 1.0)
+3. Change api-feed-type to choose your feed data type, but now, only exist json (Default: JSON)
+
 This Micro Service has communication with Eureka, that is registered to it
